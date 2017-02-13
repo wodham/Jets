@@ -7,7 +7,7 @@ public class Jet {
 	 double price;
 
 	public Jet(String model, double speed, double range, double price) {
-
+		speed = speed * 0.00130332;
 		this.model = model;
 		this.speed = speed;
 		this.range = range;

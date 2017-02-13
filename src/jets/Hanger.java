@@ -8,11 +8,11 @@ public class Hanger {
 	Scanner kb = new Scanner(System.in);
 
 	public void set() {
-		jets[0] = new Jet("a1", 1.00, 100.00, 100000.00);
-		jets[1] = new Jet("a2", 2.00, 200.00, 200000.00);
-		jets[2] = new Jet("a3", 3.00, 300.00, 300000.00);
-		jets[3] = new Jet("a4", 4.00, 400.00, 400000.00);
-		jets[4] = new Jet("a5", 5.00, 500.00, 500000.00);
+		jets[0] = new Jet("a1", 1000.00, 100.00, 100000.00);
+		jets[1] = new Jet("a2", 2000.00, 200.00, 200000.00);
+		jets[2] = new Jet("a3", 3000.00, 300.00, 300000.00);
+		jets[3] = new Jet("a4", 4000.00, 400.00, 400000.00);
+		jets[4] = new Jet("a5", 5000.00, 500.00, 500000.00);
 	}
 
 	public void menu(){
@@ -69,7 +69,6 @@ public class Hanger {
 				System.out.println("Please enter the price: ");
 				double price = kb.nextDouble();
 				
-				speed = speed * 0.00130332;
 				jets[newJetLocation] = new Jet(model, speed, range, price);
 				
 				newJetLocation++;
