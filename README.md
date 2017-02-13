@@ -1,0 +1,1 @@
+This program allows user input to select from a menu of five options to choose printing a list of the fleet of jets, to print the fastest jet, to print the jet with the longest range, to create a new jet for the fleet, or to exit the menu. All jets have the values for model, speed, range, and price for each jet.
